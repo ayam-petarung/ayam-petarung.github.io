@@ -170,6 +170,7 @@ body {
   width: 200px;
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 .product img {
   width: 100%;
@@ -249,7 +250,7 @@ body {
 
 .footer {
   padding: 20px;
-  background-color: #022735;
+  background-color: #0c0c0c;
 }
 
 .footer-container {
@@ -261,7 +262,7 @@ body {
 .footer-section {
   flex: 1;
   min-width: 200px;
-  margin: 10px;
+  margin: 20px;
 }
 
 .footer-section h4 {
@@ -280,12 +281,12 @@ body {
 
 .footer-section ul li a {
   text-decoration: none;
-  color: #66c3c8;
+  color: #fff;
   transition: color 0.3s ease;
 }
 
 .footer-section ul li a:hover {
-  color: #fff;
+  color: #66c3c8;
 }
 
 .app-links img {
@@ -331,7 +332,6 @@ body {
   margin-bottom: 30px;
   flex-wrap: wrap;
   gap: 20px;
-
 }
 
 .testi-header-left {
@@ -398,6 +398,7 @@ body {
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border: 1px solid #eee;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .testi-user-section {
@@ -495,4 +496,32 @@ body {
   .testi-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* table jadwal  */
+table {
+  width: 95%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  margin-left: 3%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+th {
+  border: 1px solid #030303;
+  padding: 5px;
+  text-align: left;
+  color: #000;
+  text-align: center;
+}
+td {
+  border: 1px solid #030303;
+  padding: 5px;
+  text-align: left;
+  color: #000;
+}
+th {
+  background-color: #f4f4f4;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
 }

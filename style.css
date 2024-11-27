@@ -306,6 +306,7 @@ body {
   flex: 1;
   min-width: 200px;
   margin: 20px;
+  text-align: justify;
 }
 
 .footer-section h4 {
@@ -595,6 +596,14 @@ tr:nth-child(even) {
 /* Styling untuk teks di bawah video */
 .testi-comment {
   text-align: center; /* Menengahkan teks */
+  font-size: 16px; /* Ukuran font teks */
+  color: #555; /* Warna teks yang lebih soft */
+  margin-top: 10px; /* Jarak antara video dan teks */
+  font-family: "Arial", sans-serif; /* Menambah font yang bersih */
+}
+
+.testi-commentt {
+  text-align: left; /* Menengahkan teks */
   font-size: 16px; /* Ukuran font teks */
   color: #555; /* Warna teks yang lebih soft */
   margin-top: 10px; /* Jarak antara video dan teks */
